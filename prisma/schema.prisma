@@ -1,0 +1,13 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlserver"
+  url      = env("DATABASE_URL")
+}
+
+model Number {
+  NumberId    Int @id(map: "PK__Number__0BED0EBBAF9EDFCB")
+  numberCount Int @default(0, map: "DF__Number__numberCo__22CA2527")
+}

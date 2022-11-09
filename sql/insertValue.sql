@@ -1,0 +1,1 @@
+INSERT INTO Number VALUES(0, 0)
