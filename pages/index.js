@@ -35,7 +35,7 @@ export default function Home() {
       });
   };
 
-  const resetCount = () => {};
+  const resetCount = () => { };
 
   return (
     <Box h="100vh" w="100vw" bg="black" overflowX="hidden">
@@ -47,10 +47,10 @@ export default function Home() {
 
           <Box>
             <Heading textAlign="center" color="white" opacity="90%" mb="1rem">
-              How does Moses make beer?
+              How many developers does it take to change a lightbulb?
             </Heading>
             <Text textAlign="center" color="white" mb="2rem" fontSize="1.5rem">
-              He brews.
+              None, its an infrastructure problem.
             </Text>
             <Text
               fontStyle="italic"

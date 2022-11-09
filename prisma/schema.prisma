@@ -8,6 +8,6 @@ datasource db {
 }
 
 model Number {
-  NumberId    Int @id(map: "PK__Number__0BED0EBBAF9EDFCB")
-  numberCount Int @default(0, map: "DF__Number__numberCo__22CA2527")
+  NumberId    Int @id(map: "PK__Number__0BED0EBBC0990683")
+  numberCount Int @default(0, map: "DF__Number__numberCo__23BE4960")
 }
